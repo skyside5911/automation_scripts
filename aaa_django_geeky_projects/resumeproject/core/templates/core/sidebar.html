@@ -1,0 +1,16 @@
+{% load static %}
+<div class="border-right border-warning h-100">
+    <div class="text-center" >
+        <img src="{% static 'core/images/mobiile6.jpg' %}" alt="mobile image" class="img-fluid rounded-circle mt-5" width="100px" height="40px">
+<h3 class="text-center text-white-50 p-2"> raj rana</h3>
+
+    </div>
+
+<hr class="border-light" >
+<nav class="nav flex-column text-center ">
+    <a href="{% url 'homepage' %}" class="nav-link">home</a>
+    <a href="{% url 'skills' %}" class="nav-link">skills</a>
+    <a href="{% url 'services' %}" class="nav-link">services</a>
+    <a href="{% url 'contacts' %}" class="nav-link">contect</a>
+</nav>
+</div>

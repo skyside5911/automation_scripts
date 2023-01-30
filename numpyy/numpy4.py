@@ -1,0 +1,11 @@
+import numpy as np
+aa=np.array([2,3,5,8]).reshape(2,2)
+bb=np.array([3,4,5,8]).reshape(2,2)
+print(bb)
+print(aa)
+print(aa-(bb))
+print(aa+(bb))
+print(aa.dot(bb))
+print(aa/(bb))
+print(aa%(bb))
+print(aa**(bb))

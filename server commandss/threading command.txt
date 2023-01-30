@@ -1,0 +1,5 @@
+first of all import threadig 
+to know the name of thread use """threading.current_thread().getName()"""
+to start the thread use command 
+"""t=Thread(target=display)
+t.start()"""

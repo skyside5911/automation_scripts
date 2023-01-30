@@ -1,0 +1,31 @@
+  631  lscpu
+  632  htop  
+  697  sudo /root/quill.sh >> /var/log/quill.log 2>&1
+  698  cat /var/log/quill.log
+  699  cd /var/log/
+  729 cat quill.sh
+  730  cat rconline.sh
+  731  cat scrapy.sh
+  732  crontab
+  733  cat /etc/crontab
+  734  cat /etc/cron.daily
+  735  crontab -l
+  736  sudo nano /etc/crontab
+  737  nano /etc/crontab
+  738  nano crontab
+  739  crontab -e
+$ ssh root@64.227.176.243
+password:- H@y>%_7<E>nz+R
+to check time in server :- timedatectl
+1,17,59 * * * * root wget http://www.example.com
+to check the time in server :-  timedatectl
+cat   /var/log/scrapy.log
+to do changes in sh file :- sudo nano scrapy.sh
+to send file to another folder :- cp scrapy.sh(file name) article_automation/(folder name)
+
+to run schedule file on server :-  
+    sudo /root/article_automation/scrapy.sh
+
+
+
+

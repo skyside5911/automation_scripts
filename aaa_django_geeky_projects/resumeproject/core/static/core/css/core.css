@@ -1,0 +1,18 @@
+.st-font{
+    font-family: fantasy;
+}
+html,body
+{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+/* service icon color */
+.i-col{
+    color: chartreuse;
+}
+/* service subtitle color */
+.ss-color{
+    color: whitesmoke;
+}

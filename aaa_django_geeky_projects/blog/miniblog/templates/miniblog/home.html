@@ -1,0 +1,17 @@
+{% extends 'miniblog/base.html' %}
+{% load static %}
+{% block content %}
+<div class="col-sm-10">
+    <h3 class="text-white my-5 fw-bolder ">Home Page</h3>
+    {% for form in forms %}
+    <div class="jumbotron jumbotron-fluid jumbb pt-4">
+        <div class="container ">
+            
+            <h1 class="display-4 fw-bold text-light ">{{form.title}} </h1>
+            <p class="lead ">{{form.desc}} </p>
+            
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock content %}

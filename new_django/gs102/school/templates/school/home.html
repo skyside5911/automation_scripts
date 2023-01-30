@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> information</title>
+    <style>
+        table,th,tr,td{
+            border: 1px solid black
+        }
+    </style>
+</head>
+<body>
+    <table>
+    <h3>Student data</h3>
+<th>ID</th>
+<th>NAME</th>
+<th>Age</th>
+<th>Fees</th>
+
+{% for student in students %}
+<tr>
+    <td>{{student.id}}</td>
+    <td>{{student.name}}</td>
+    <td>{{student.age}}</td>
+    <td>{{student.fees}}</td>
+
+    
+</tr>
+{% endfor %}
+    </table>
+    <table>
+        <h3>contractor data</h3>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>Age</th>
+    <th>Date</th>
+    <th>Payment</th>
+    
+    {% for contractor in contractors %}
+    <tr>
+        <td>{{contractor.id}}</td>
+        <td>{{contractor.name}}</td>
+        <td>{{contractor.Date}}</td>
+        <td>{{contractor.Age}}</td>
+        <td>{{contractor.Payment}}</td>
+    
+        
+    </tr>
+    {% endfor %}
+        </table>
+        <table>
+            <h3>teacher data</h3>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>Age</th>
+        <th>Date</th>
+        <th>Salary</th>
+        
+        {% for teacher in teachers %}
+        <tr>
+            <td>{{teacher.id}}</td>
+            <td>{{teacher.name}}</td>
+            <td>{{teacher.Age}}</td>
+            <td>{{teacher.Date}}</td>
+            <td>{{teacher.Salary}}</td>
+        
+            
+        </tr>
+        {% endfor %}
+            </table>
+</body>
+</html>

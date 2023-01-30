@@ -1,0 +1,68 @@
+https://github.com/rajrana5911/article_automation.git
+
+git clone https://rajrana5911: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@github.com/rajrana5911/article_automation.git
+
+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
+
+
+$ ssh
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command]
+
+Acer@DESKTOP-T4EO1IJ MINGW64 ~ (master)
+
+
+The authenticity of host '64.227.176.243 (64.227.176.243)' can't be established.
+ED25519 key fingerprint is SHA256:MvrR1B4VxsKVZSXkzIGO272rysEK82RlTCAABAVplGE.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '64.227.176.243' (ED25519) to the list of known hosts.
+root@64.227.176.243's password:
+Permission denied, please try again.
+root@64.227.176.243's password:
+Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-124-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Tue Sep 20 10:55:46 UTC 2022
+
+  System load:  0.0                Users logged in:       0
+  Usage of /:   28.6% of 24.05GB   IPv4 address for eth0: 64.227.176.243
+  Memory usage: 22%                IPv4 address for eth0: 10.47.0.6
+  Swap usage:   0%                 IPv4 address for eth1: 10.122.0.3
+  Processes:    117
+
+65 updates can be applied immediately.
+5 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+New release '22.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+Last login: Tue Sep 20 07:15:41 2022 from 103.179.10.56
+root@automationserver:~# ls
+%_7         Dropbox      chromedriver_linux64.zip  feed_new.py   news_prod.py     quill.sh       quillbot_published.py  rconline.sh  snap
+Automation  __pycache__  dropbox.py                feed_prod.py  publish_prod.py  quill.sh.save  quillbot_spinned.py    scrapy.sh    therconline_prod.py
+root@automationserver:~# git clone https://rajrana5911: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@github.com/rajrana5911/article_automation.git
+Cloning into 'article_automation'...
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 22 (delta 10), reused 16 (delta 4), pack-reused 0
+Unpacking objects: 100% (22/22), 13.23 KiB | 1.89 MiB/s, done.
+root@automationserver:~# ls
+%_7         Dropbox      article_automation        dropbox.py   feed_prod.py  publish_prod.py  quill.sh.save          quillbot_spinned.py  scrapy.sh  therconline_prod.py
+Automation  __pycache__  chromedriver_linux64.zip  feed_new.py  news_prod.py  quill.sh         quillbot_published.py  rconline.sh          snap
+root@automationserver:~# cd article_automation/
+root@automationserver:~/article_automation# ls
+1_feed.py  2_quill.py  3_publish.py  __pycache__  feed_multi.py  feed_multi2.py  post_extract_from_site.py  publish_multiurl2.py  quill_multidest2.py
+root@automationserver:~/article_automation#

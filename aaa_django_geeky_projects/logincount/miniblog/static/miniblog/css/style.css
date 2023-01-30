@@ -1,0 +1,16 @@
+body{
+    /* background-color: rgb(210, 52, 52); */
+    background-color: rgb(146, 94, 25);
+}
+h2{
+    color: azure;
+}
+nav{
+    color: blueviolet;
+}
+.jumbb{
+    background-color: rgb(83, 81, 81);
+}
+.form-control{
+    background-color: burlywood;
+}
